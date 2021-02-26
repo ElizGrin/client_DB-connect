@@ -131,11 +131,6 @@ public class Main extends Application {
                     serverMessage = in.readLine();
                     System.out.println(serverMessage);
 
-                    /*numberTf.setText(null);
-                    AuthorTf.setText(null);
-                    NameTf.setText(null);
-                    PublTf.setText(null);
-                    YearTf.setText(null);*/
                 } catch (IOException e) {
                 }
             });
@@ -187,22 +182,7 @@ public class Main extends Application {
                     System.out.println("Message is sent. Waiting for the server answer..");
                     serverMessage = in.readLine();
                     System.out.println(serverMessage);
-                    /*while(true) {
-                        serverMessage = in.readLine();
-                        if(serverMessage.compareTo("end or not found")==0){
-                            System.out.println("Not found\n");
-                            break;}
-                        if(serverMessage.compareTo("full")==0) {
-                            f.setSelected(true);
-                        }
-                        if(serverMessage.compareTo("partly")==0){
-                            p.setSelected(true);
-                        }
-                        f.setSelected(false);
-                        p.setSelected(false);*/
-                    //System.out.println(serverMessage);
 
-                    //numberTf.setText(null);
                 } catch (IOException e) {
                 }
             });
